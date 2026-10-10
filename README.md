@@ -1,93 +1,120 @@
-<h1 align="center">Hi, I'm Aoun Raza 👋</h1>
-<h3 align="center">Full Stack Engineer | Java · Spring Boot · .NET · React · Flutter</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Aoun%20Raza&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Engineer%20%E2%80%A2%20Karachi%2C%20Pakistan&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header"/>
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=600&lines=Associate+Full+Stack+Engineer+%40+Simplifi;Java+%E2%80%A2+Spring+Boot+%E2%80%A2+Microservices+%E2%80%A2+Kafka;.NET+8+Web+API+%E2%80%A2+React+%E2%80%A2+Flutter;Docker+%E2%80%A2+Kubernetes+%E2%80%A2+Azure+%E2%80%A2+CI%2FCD" alt="Typing SVG"/></a>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/aoun-raza-5b2638285/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:aounraza008@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/Karachi,_Pakistan-555555?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
+  <img src="https://komarev.com/ghpvc/?username=aoun02&style=for-the-badge&color=2c5364&label=Profile+Views" alt="Profile views"/>
 </p>
 
 ---
 
-## 🚀 About Me
+### 👨‍💻 About Me
 
-I'm a **Software Engineer** with hands-on experience building, testing, deploying and monitoring full-stack applications, from backend microservices to web and mobile frontends.
+```yaml
+name:      Aoun Raza
+role:      Associate Full Stack Engineer @ Simplifi
+location:  Karachi, Pakistan
+education: B.S. Computer Engineering (SSUET), CGPA 3.44
+focus:     [Backend Microservices, Full Stack Web, Mobile, Cloud & DevOps]
+currently: Building a B2B fintech debit-card platform for clients across MENA
+open_to:   Opportunities & collaborations
+```
 
-- 💼 **Associate Full Stack Engineer @ Simplifi**: building a B2B fintech platform that provides debit card services to business clients across the MENA region
-- ⚙️ Building **Java / Spring Boot microservices** that communicate over **Kafka**, plus frontend features in **React**
-- 📱 Developing and releasing **Flutter** mobile apps for iOS and Android
-- ☁️ Shipping containerized services with **Docker, Helm and CI/CD** to **Azure Kubernetes** (Dev → UAT → Production), monitored with **Grafana and Lens**
-- 🎓 **B.S. Computer Engineering**, Sir Syed University of Engineering and Technology (CGPA 3.44)
+- ⚙️ Build **Java / Spring Boot microservices** that talk over **Kafka**, plus frontend features in **React**
+- 📱 Develop and release **Flutter** apps for iOS and Android
+- ☁️ Ship containerized services with **Docker, Helm and CI/CD** to **Azure Kubernetes** (Dev → UAT → Prod), monitored with **Grafana and Lens**
+- 🔐 Previously migrated legacy **.NET 4.7.2 → .NET 8 Web API**, added JWT auth and fixed VAPT security findings
 
-## 💼 Experience
+---
 
-**Associate Full Stack Engineer**, Simplifi · *Aug 2026 – Present*
-> Spring Boot microservices, Kafka, React, Flutter, Docker, Helm, Azure Kubernetes, Grafana
+### 💼 Experience
 
-**Junior Software Developer**, Sofcom · *Aug 2025 – Aug 2026*
-> - Migrated 4 modules (40% of the project) from legacy .NET 4.7.2 Web Forms to **.NET 8 Web API**
-> - Built a new MES module on .NET 8 with **JWT authentication**
-> - Resolved 9 of 13 VAPT security vulnerabilities across 12 modules
-> - Cut client report errors by 20% with Crystal Reports; deployed through **Azure DevOps**
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏦 Simplifi</h4>
+      <b>Associate Full Stack Engineer</b><br/>
+      <sub>Aug 2026 – Present · Karachi</sub>
+      <ul>
+        <li>B2B fintech debit-card platform (MENA)</li>
+        <li>Spring Boot microservices + Kafka</li>
+        <li>React & Flutter frontends</li>
+        <li>Docker, Helm, AKS, Grafana</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏭 Sofcom</h4>
+      <b>Junior Software Developer</b><br/>
+      <sub>Aug 2025 – Aug 2026 · Karachi</sub>
+      <ul>
+        <li>Migrated 4 modules (40%) to .NET 8 Web API</li>
+        <li>New MES module with JWT auth</li>
+        <li>Resolved 9 of 13 VAPT vulnerabilities</li>
+        <li>20% fewer report errors (Crystal Reports)</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-## 🛠️ Tech Stack
+---
 
-**Languages**
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+### 🛠️ Tech Stack
+
+<p align="center"><b>Languages</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,cs,cpp,c,python,js,dart&theme=dark" alt="Languages"/>
 </p>
 
-**Backend**
-<p>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-  <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+<p align="center"><b>Backend & Frontend</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=spring,dotnet,nodejs,express,kafka,react,flutter,html,css&theme=dark" alt="Frameworks"/>
 </p>
 
-**Frontend & Mobile**
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+<p align="center"><b>Cloud, DevOps & Data</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=azure,kubernetes,docker,githubactions,grafana,vercel,mysql,mongodb,git&theme=dark" alt="Cloud and DevOps"/>
 </p>
 
-**Cloud & DevOps**
-<p>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
-</p>
+---
 
-**Databases & Tools**
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white"/>
-</p>
-
-## 📂 Featured Projects
+### 📂 Featured Projects
 
 | Project | Description | Tech | Live |
-|---|---|---|---|
-| *Coming soon* | Projects are being added; check back shortly! | | |
+|:--|:--|:--|:--|
+| 🚧 *Coming soon* | New projects are on the way | | |
 
-## 📫 Let's Connect
+---
 
-I'm open to new opportunities and collaborations. Reach me on [LinkedIn](https://www.linkedin.com/in/aoun-raza-5b2638285/) or at **aounraza008@gmail.com**.
+### 📊 GitHub Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aoun02&show_icons=true&hide_border=true&bg_color=0f2027&title_color=4FC3F7&icon_color=4FC3F7&text_color=e0e0e0&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aoun02&layout=compact&hide_border=true&bg_color=0f2027&title_color=4FC3F7&text_color=e0e0e0" alt="Top languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=aoun02&hide_border=true&background=0F2027&ring=4FC3F7&fire=4FC3F7&currStreakLabel=4FC3F7&sideLabels=E0E0E0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9E9E9E" alt="GitHub streak"/>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aoun02/aoun02/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aoun02/aoun02/output/github-snake.svg"/>
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/aoun02/aoun02/output/github-snake.svg"/>
+  </picture>
+</p>
+
+---
+
+### 📫 Let's Connect
+
+<p align="center">
+  Open to new opportunities and collaborations. Reach me on
+  <a href="https://www.linkedin.com/in/aoun-raza-5b2638285/">LinkedIn</a> or at <b>aounraza008@gmail.com</b>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=110&section=footer" width="100%" alt="footer"/>
