@@ -1,7 +1,5 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Aoun%20Raza&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Engineer%20%E2%80%A2%20Karachi%2C%20Pakistan&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header"/>
-
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=600&lines=Associate+Full+Stack+Engineer+%40+Simplifi;Java+%E2%80%A2+Spring+Boot+%E2%80%A2+Microservices+%E2%80%A2+Kafka;.NET+8+Web+API+%E2%80%A2+React+%E2%80%A2+Flutter;Docker+%E2%80%A2+Kubernetes+%E2%80%A2+Azure+%E2%80%A2+CI%2FCD" alt="Typing SVG"/></a>
+  <img src="assets/hero.svg" width="100%" alt="Aoun Raza — Full Stack Engineer · Fintech · Microservices · Cloud"/>
 </p>
 
 <p align="center">
@@ -14,51 +12,17 @@
 
 ### 👨‍💻 About Me
 
-```yaml
-name:      Aoun Raza
-role:      Associate Full Stack Engineer @ Simplifi
-location:  Karachi, Pakistan
-education: B.S. Computer Engineering (SSUET), CGPA 3.44
-focus:     [Backend Microservices, Full Stack Web, Mobile, Cloud & DevOps]
-currently: Building a B2B fintech debit-card platform for clients across MENA
-open_to:   Opportunities & collaborations
-```
-
-- ⚙️ Build **Java / Spring Boot microservices** that talk over **Kafka**, plus frontend features in **React**
-- 📱 Develop and release **Flutter** apps for iOS and Android
-- ☁️ Ship containerized services with **Docker, Helm and CI/CD** to **Azure Kubernetes** (Dev → UAT → Prod), monitored with **Grafana and Lens**
-- 🔐 Previously migrated legacy **.NET 4.7.2 → .NET 8 Web API**, added JWT auth and fixed VAPT security findings
+<p align="center">
+  <img src="assets/terminal.svg" width="100%" alt="whoami: Aoun Raza, Associate Full Stack Engineer at Simplifi. Stack: Java, Spring Boot, Kafka, .NET 8, React, Flutter, Docker, Helm, Azure Kubernetes. Building a B2B fintech debit-card platform for MENA."/>
+</p>
 
 ---
 
 ### 💼 Experience
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🏦 Simplifi</h4>
-      <b>Associate Full Stack Engineer</b><br/>
-      <sub>Aug 2026 – Present · Karachi</sub>
-      <ul>
-        <li>B2B fintech debit-card platform (MENA)</li>
-        <li>Spring Boot microservices + Kafka</li>
-        <li>React & Flutter frontends</li>
-        <li>Docker, Helm, AKS, Grafana</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🏭 Sofcom</h4>
-      <b>Junior Software Developer</b><br/>
-      <sub>Aug 2025 – Aug 2026 · Karachi</sub>
-      <ul>
-        <li>Migrated 4 modules (40%) to .NET 8 Web API</li>
-        <li>New MES module with JWT auth</li>
-        <li>Resolved 9 of 13 VAPT vulnerabilities</li>
-        <li>20% fewer report errors (Crystal Reports)</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/timeline.svg" width="100%" alt="Experience: Simplifi, Associate Full Stack Engineer (Aug 2026 – Present); Sofcom, Junior Software Developer (Aug 2025 – Aug 2026)"/>
+</p>
 
 ---
 

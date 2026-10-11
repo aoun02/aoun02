@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
+  <defs>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="250" y1="0" x2="750" y2="0">
+      <stop offset="0" stop-color="#2c5364"/>
+      <stop offset="1" stop-color="#4FC3F7"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; }
+    .mono { font-family: Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace; }
+    .card { fill: #0f2027; stroke: #4FC3F7; stroke-opacity: 0.25; stroke-width: 1.5; }
+    .now { stroke-opacity: 0.7; }
+    .co { fill: #ffffff; font-size: 22px; font-weight: 700; }
+    .role { fill: #4FC3F7; font-size: 15px; font-weight: 600; }
+    .date { fill: #7c98a6; font-size: 13px; }
+    .li { fill: #cfe3ec; font-size: 14.5px; }
+    .b { fill: #4FC3F7; }
+    .tag { fill: #132a33; stroke: #4FC3F7; stroke-opacity: 0.35; }
+    .tagt { fill: #a9d8ec; font-size: 12px; }
+    .ring { fill: none; stroke: #4ade80; stroke-width: 2; animation: ring 2s ease-out infinite; transform-origin: 750px 30px; }
+    @keyframes ring { 0% { opacity: 0.9; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
+    .grow { stroke-dasharray: 700; stroke-dashoffset: 700; animation: grow 1.4s ease-out forwards; }
+    @keyframes grow { to { stroke-dashoffset: 0; } }
+    .in { opacity: 0; animation: in 0.7s ease forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  </style>
+
+  <!-- timeline rail -->
+  <path class="grow" d="M250 30H750" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="250" cy="30" r="7" fill="#2c5364" stroke="#4FC3F7" stroke-width="2"/>
+  <circle class="ring" cx="750" cy="30" r="8"/>
+  <circle cx="750" cy="30" r="8" fill="#4ade80"/>
+  <circle cx="500" cy="30" r="5" fill="#4FC3F7"/>
+  <text class="mono date" x="236" y="35" text-anchor="end">Aug 2025</text>
+  <text class="mono date" x="500" y="17" text-anchor="middle">Aug 2026</text>
+  <text class="mono date" x="768" y="35" style="fill:#4ade80">Present</text>
+  <path d="M250 37V62M750 38V62" stroke="#4FC3F7" stroke-opacity="0.3" stroke-dasharray="3 4"/>
+
+  <!-- Sofcom -->
+  <g class="in" style="animation-delay:0.3s">
+    <rect class="card" x="20" y="62" width="460" height="256" rx="14"/>
+    <text class="sans co" x="48" y="102">Sofcom</text>
+    <text class="sans role" x="48" y="127">Junior Software Developer</text>
+    <text class="sans date" x="48" y="148">Aug 2025 – Aug 2026 · Karachi</text>
+    <g class="sans li">
+      <text x="48" y="182"><tspan class="b">▸ </tspan>Migrated 4 modules (40%) to .NET 8 Web API</text>
+      <text x="48" y="207"><tspan class="b">▸ </tspan>Built a new MES module with JWT auth</text>
+      <text x="48" y="232"><tspan class="b">▸ </tspan>Resolved 9 of 13 VAPT security findings</text>
+      <text x="48" y="257"><tspan class="b">▸ </tspan>20% fewer report errors (Crystal Reports)</text>
+    </g>
+    <g class="sans">
+      <rect class="tag" x="48" y="276" width="64" height="24" rx="12"/><text class="tagt" x="80" y="292" text-anchor="middle">.NET 8</text>
+      <rect class="tag" x="120" y="276" width="44" height="24" rx="12"/><text class="tagt" x="142" y="292" text-anchor="middle">C#</text>
+      <rect class="tag" x="172" y="276" width="48" height="24" rx="12"/><text class="tagt" x="196" y="292" text-anchor="middle">JWT</text>
+      <rect class="tag" x="228" y="276" width="62" height="24" rx="12"/><text class="tagt" x="259" y="292" text-anchor="middle">VAPT</text>
+    </g>
+  </g>
+
+  <!-- Simplifi -->
+  <g class="in" style="animation-delay:0.7s">
+    <rect class="card now" x="520" y="62" width="460" height="256" rx="14"/>
+    <text class="sans co" x="548" y="102">Simplifi</text>
+    <rect x="870" y="84" width="84" height="24" rx="12" fill="#4ade80" fill-opacity="0.15" stroke="#4ade80" stroke-opacity="0.6"/>
+    <text class="sans" x="912" y="100" text-anchor="middle" fill="#bbf7d0" font-size="12" font-weight="600">CURRENT</text>
+    <text class="sans role" x="548" y="127">Associate Full Stack Engineer</text>
+    <text class="sans date" x="548" y="148">Aug 2026 – Present · Karachi</text>
+    <g class="sans li">
+      <text x="548" y="182"><tspan class="b">▸ </tspan>B2B fintech debit-card platform for MENA</text>
+      <text x="548" y="207"><tspan class="b">▸ </tspan>Spring Boot microservices over Kafka</text>
+      <text x="548" y="232"><tspan class="b">▸ </tspan>React web + Flutter iOS/Android apps</text>
+      <text x="548" y="257"><tspan class="b">▸ </tspan>Docker · Helm · AKS (Dev → UAT → Prod)</text>
+    </g>
+    <g class="sans">
+      <rect class="tag" x="548" y="276" width="86" height="24" rx="12"/><text class="tagt" x="591" y="292" text-anchor="middle">Spring Boot</text>
+      <rect class="tag" x="642" y="276" width="54" height="24" rx="12"/><text class="tagt" x="669" y="292" text-anchor="middle">Kafka</text>
+      <rect class="tag" x="704" y="276" width="56" height="24" rx="12"/><text class="tagt" x="732" y="292" text-anchor="middle">React</text>
+      <rect class="tag" x="768" y="276" width="62" height="24" rx="12"/><text class="tagt" x="799" y="292" text-anchor="middle">Flutter</text>
+      <rect class="tag" x="838" y="276" width="48" height="24" rx="12"/><text class="tagt" x="862" y="292" text-anchor="middle">AKS</text>
+    </g>
+  </g>
+</svg>
