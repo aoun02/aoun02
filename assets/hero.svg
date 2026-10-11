@@ -1,20 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f2027"/>
-      <stop offset="0.55" stop-color="#203a43"/>
-      <stop offset="1" stop-color="#2c5364"/>
+      <stop offset="0" stop-color="#181825"/>
+      <stop offset="1" stop-color="#1e1e2e"/>
     </linearGradient>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#4FC3F7"/>
+      <stop offset="0" stop-color="#cba6f7"/>
+      <stop offset="0.5" stop-color="#b4befe"/>
+      <stop offset="1" stop-color="#89dceb"/>
     </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#4FC3F7" stroke-opacity="0.06" stroke-width="1"/>
+    <linearGradient id="rail" gradientUnits="userSpaceOnUse" x1="120" y1="0" x2="884" y2="0">
+      <stop offset="0" stop-color="#f5c2e7"/>
+      <stop offset="0.5" stop-color="#b4befe"/>
+      <stop offset="1" stop-color="#94e2d5"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#b4befe" fill-opacity="0.08"/>
     </pattern>
-    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.6">
-      <stop offset="0" stop-color="#4FC3F7" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#4FC3F7" stop-opacity="0"/>
+    <radialGradient id="glow1" cx="0.88" cy="0.05" r="0.55">
+      <stop offset="0" stop-color="#cba6f7" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#cba6f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.05" cy="1" r="0.5">
+      <stop offset="0" stop-color="#89dceb" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#89dceb" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="card"><rect width="1000" height="340" rx="18"/></clipPath>
   </defs>
@@ -24,49 +33,38 @@
     .fade { opacity: 0; animation: fade 0.8s ease forwards; }
     .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.4s; } .d3 { animation-delay: 0.7s; } .d4 { animation-delay: 1.0s; }
     @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-    .pulse { animation: pulse 1.8s ease-in-out infinite; transform-origin: 812px 52px; }
-    @keyframes pulse { 0%,100% { opacity: 0.9; transform: scale(1); } 50% { opacity: 0.25; transform: scale(2.2); } }
-    .node rect { fill: #0f2027; fill-opacity: 0.75; stroke: #4FC3F7; stroke-opacity: 0.35; stroke-width: 1.5; }
-    .node text { fill: #e0f4fd; font-size: 15px; font-weight: 600; }
-    .node .sub { fill: #8fb3c4; font-size: 11px; font-weight: 400; }
-    .n1 rect { animation: lit 5s linear infinite 0s; }
-    .n2 rect { animation: lit 5s linear infinite 1s; }
-    .n3 rect { animation: lit 5s linear infinite 2s; }
-    .n4 rect { animation: lit 5s linear infinite 3s; }
-    .n5 rect { animation: lit 5s linear infinite 4s; }
+    .node rect { fill: #313244; fill-opacity: 0.55; stroke-width: 1.5; stroke-opacity: 0.35; }
+    .node text { font-size: 15px; font-weight: 600; }
+    .node .sub { fill: #a6adc8; font-size: 11px; font-weight: 400; }
+    .n1 rect { stroke: #f5c2e7; animation: lit 5s linear infinite 0s; } .n1 text { fill: #f5c2e7; }
+    .n2 rect { stroke: #cba6f7; animation: lit 5s linear infinite 1s; } .n2 text { fill: #cba6f7; }
+    .n3 rect { stroke: #b4befe; animation: lit 5s linear infinite 2s; } .n3 text { fill: #b4befe; }
+    .n4 rect { stroke: #89dceb; animation: lit 5s linear infinite 3s; } .n4 text { fill: #89dceb; }
+    .n5 rect { stroke: #94e2d5; animation: lit 5s linear infinite 4s; } .n5 text { fill: #94e2d5; }
     @keyframes lit { 0%,22%,100% { stroke-opacity: 0.35; } 6% { stroke-opacity: 1; } }
-    .wire { stroke: #4FC3F7; stroke-opacity: 0.5; stroke-width: 2; stroke-dasharray: 4 6; animation: flow 1s linear infinite; }
+    .wire { stroke: #6c7086; stroke-width: 2; stroke-dasharray: 4 6; animation: flow 1s linear infinite; }
     @keyframes flow { to { stroke-dashoffset: -10; } }
   </style>
 
   <g clip-path="url(#card)">
     <rect width="1000" height="340" fill="url(#bg)"/>
-    <rect width="1000" height="340" fill="url(#grid)"/>
-    <rect width="1000" height="340" fill="url(#glow)"/>
+    <rect width="1000" height="340" fill="url(#dots)"/>
+    <rect width="1000" height="340" fill="url(#glow1)"/>
+    <rect width="1000" height="340" fill="url(#glow2)"/>
   </g>
+  <rect x="0.5" y="0.5" width="999" height="339" rx="18" fill="none" stroke="#45475a" stroke-opacity="0.6"/>
 
-  <!-- prompt label -->
-  <text class="mono fade d1" x="48" y="58" fill="#4FC3F7" font-size="15">~/aoun02 $ ./intro</text>
+  <text class="mono fade d1" x="48" y="58" font-size="15"><tspan fill="#a6e3a1">~/aoun02</tspan><tspan fill="#6c7086"> $ </tspan><tspan fill="#cdd6f4">./intro</tspan></text>
 
-  <!-- status pill -->
-  <g class="fade d1">
-    <rect x="796" y="36" width="168" height="32" rx="16" fill="#0f2027" fill-opacity="0.7" stroke="#4ade80" stroke-opacity="0.5"/>
-    <circle class="pulse" cx="812" cy="52" r="5" fill="#4ade80"/>
-    <circle cx="812" cy="52" r="5" fill="#4ade80"/>
-    <text class="sans" x="824" y="57" fill="#d1fae5" font-size="13" font-weight="600">Open to opportunities</text>
-  </g>
-
-  <!-- name + title -->
   <text class="sans fade d2" x="46" y="128" fill="url(#name)" font-size="62" font-weight="800" letter-spacing="-1">Aoun Raza</text>
-  <text class="sans fade d3" x="48" y="166" fill="#cfe3ec" font-size="21">Full Stack Engineer  ·  Fintech  ·  Microservices  ·  Cloud</text>
-  <text class="mono fade d3" x="48" y="194" fill="#8fb3c4" font-size="14">Karachi, Pakistan  //  Associate Full Stack Engineer @ Simplifi</text>
+  <text class="sans fade d3" x="48" y="166" fill="#cdd6f4" font-size="21">Full Stack Engineer  ·  Fintech  ·  Microservices  ·  Cloud</text>
+  <text class="mono fade d3" x="48" y="194" fill="#7f849c" font-size="14">Karachi, Pakistan  //  Associate Full Stack Engineer @ Simplifi</text>
 
-  <!-- pipeline -->
   <g class="fade d4">
-    <path id="w1" class="wire" d="M200 278H232"/>
-    <path id="w2" class="wire" d="M392 278H424"/>
-    <path id="w3" class="wire" d="M584 278H616"/>
-    <path id="w4" class="wire" d="M776 278H808"/>
+    <path class="wire" d="M200 278H232"/>
+    <path class="wire" d="M392 278H424"/>
+    <path class="wire" d="M584 278H616"/>
+    <path class="wire" d="M776 278H808"/>
 
     <g class="node n1 sans"><rect x="40" y="250" width="160" height="56" rx="10"/><text x="120" y="275" text-anchor="middle">React · Flutter</text><text class="sub" x="120" y="294" text-anchor="middle">web &amp; mobile</text></g>
     <g class="node n2 sans"><rect x="232" y="250" width="160" height="56" rx="10"/><text x="312" y="275" text-anchor="middle">REST · JWT</text><text class="sub" x="312" y="294" text-anchor="middle">api gateway</text></g>
@@ -74,11 +72,10 @@
     <g class="node n4 sans"><rect x="616" y="250" width="160" height="56" rx="10"/><text x="696" y="275" text-anchor="middle">Kafka</text><text class="sub" x="696" y="294" text-anchor="middle">event streaming</text></g>
     <g class="node n5 sans"><rect x="808" y="250" width="152" height="56" rx="10"/><text x="884" y="275" text-anchor="middle">Azure AKS</text><text class="sub" x="884" y="294" text-anchor="middle">docker · helm · ci/cd</text></g>
 
-    <!-- packet travelling the whole pipeline -->
-    <circle r="4" fill="#ffffff">
-      <animateMotion dur="5s" repeatCount="indefinite" path="M120 250 V236 H884 V250" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+    <path d="M120 250 V236 H884 V250" fill="none" stroke="url(#rail)" stroke-opacity="0.3" stroke-width="1.5"/>
+    <circle r="4" fill="#fab387">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M120 250 V236 H884 V250"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="5s" repeatCount="indefinite"/>
     </circle>
-    <path d="M120 250 V236 H884 V250" fill="none" stroke="#4FC3F7" stroke-opacity="0.15" stroke-width="1.5"/>
   </g>
 </svg>

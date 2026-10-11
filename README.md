@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/aoun-raza-5b2638285/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:aounraza008@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=aoun02&style=for-the-badge&color=2c5364&label=Profile+Views" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=aoun02&style=for-the-badge&color=cba6f7&label=Profile+Views" alt="Profile views"/>
 </p>
 
 ---
@@ -56,12 +56,12 @@
 ### 📊 GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aoun02&show_icons=true&hide_border=true&bg_color=0f2027&title_color=4FC3F7&icon_color=4FC3F7&text_color=e0e0e0&count_private=true&include_all_commits=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aoun02&layout=compact&hide_border=true&bg_color=0f2027&title_color=4FC3F7&text_color=e0e0e0" alt="Top languages"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aoun02&show_icons=true&hide_border=true&theme=catppuccin_mocha&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aoun02&layout=compact&hide_border=true&theme=catppuccin_mocha" alt="Top languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=aoun02&hide_border=true&background=0F2027&ring=4FC3F7&fire=4FC3F7&currStreakLabel=4FC3F7&sideLabels=E0E0E0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9E9E9E" alt="GitHub streak"/>
+  <img src="https://streak-stats.demolab.com?user=aoun02&hide_border=true&theme=catppuccin-mocha" alt="GitHub streak"/>
 </p>
 
 <p align="center">
@@ -77,8 +77,8 @@
 ### 📫 Let's Connect
 
 <p align="center">
-  Open to new opportunities and collaborations. Reach me on
+  Reach me on
   <a href="https://www.linkedin.com/in/aoun-raza-5b2638285/">LinkedIn</a> or at <b>aounraza008@gmail.com</b>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=110&section=footer" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,50:313244,100:45475a&height=110&section=footer" width="100%" alt="footer"/>
