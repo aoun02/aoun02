@@ -51,7 +51,8 @@
 | Project | Description | Tech | Live |
 |:--|:--|:--|:--|
 | 🌐 [**Developer Portfolio**](https://github.com/aoun02/aoun-portfolio) | Responsive personal portfolio with a code-editor hero, scroll animations and pastel theme | React · Vite · CSS | [aounraza.vercel.app](https://aounraza.vercel.app) |
-| 🚧 *More coming soon* | Full stack apps with Spring Boot, .NET and React | | |
+| 💳 [**PayFlow — Digital Wallet**](https://github.com/aoun02/payflow) | Spring Boot REST API + React dashboard: cards, transfers, charts, filtered history | Java · Spring Boot · JPA · React · Docker | [payflow-aoun.vercel.app](https://payflow-aoun.vercel.app) |
+| 🚧 *More coming soon* | .NET 8 MVC application | | |
 
 ---
 
