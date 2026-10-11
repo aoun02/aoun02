@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="https://aounraza.vercel.app"><img src="https://img.shields.io/badge/Portfolio-cba6f7?style=for-the-badge&logo=vercel&logoColor=1e1e2e" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/aoun-raza-5b2638285/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:aounraza008@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <img src="https://komarev.com/ghpvc/?username=aoun02&style=for-the-badge&color=cba6f7&label=Profile+Views" alt="Profile views"/>
@@ -49,7 +50,8 @@
 
 | Project | Description | Tech | Live |
 |:--|:--|:--|:--|
-| 🚧 *Coming soon* | New projects are on the way | | |
+| 🌐 [**Developer Portfolio**](https://github.com/aoun02/aoun-portfolio) | Responsive personal portfolio with a code-editor hero, scroll animations and pastel theme | React · Vite · CSS | [aounraza.vercel.app](https://aounraza.vercel.app) |
+| 🚧 *More coming soon* | Full stack apps with Spring Boot, .NET and React | | |
 
 ---
 
