@@ -50,6 +50,7 @@
 
 | Project | Description | Tech | Live |
 |:--|:--|:--|:--|
+| 📚 [**StudyBuddy — RAG Study Assistant**](https://github.com/aoun02/studybuddy) | Chat with your notes with cited answers, summaries and quizzes; Java backend calls a private Python RAG service | React · Spring Boot · Python · FastAPI · Gemini | [studybuddy-aoun.vercel.app](https://studybuddy-aoun.vercel.app) |
 | 🌐 [**Developer Portfolio**](https://github.com/aoun02/aoun-portfolio) | Responsive personal portfolio with a code-editor hero, scroll animations and pastel theme | React · Vite · CSS | [aounraza.vercel.app](https://aounraza.vercel.app) |
 | 💳 [**PayFlow — Digital Wallet**](https://github.com/aoun02/payflow) | Spring Boot REST API + React dashboard: cards, transfers, charts, filtered history | Java · Spring Boot · JPA · React · Docker | [payflow-aoun.vercel.app](https://payflow-aoun.vercel.app) |
 | 🏭 [**LinePilot — Manufacturing MES**](https://github.com/aoun02/linepilot) | ASP.NET Core MVC app: work-order workflow, machine downtime, inventory, production dashboard | .NET 10 · C# · EF Core · Bootstrap | [linepilot-aoun.vercel.app](https://linepilot-aoun.vercel.app) |
